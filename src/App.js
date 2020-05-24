@@ -1,14 +1,21 @@
-import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { Component } from "react";
+import LandingPage from "./components/LandingPage";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Oscar Hurtado</p>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div>
+          <main className="main">
+            <Route exact path="/" component={LandingPage} />
+            {/* <Route exact path="/jokes" component={LandingPage} />
+            <Route exact path="/randomjokes" component={RandomLandingPage} /> */}
+          </main>
+        </div>
+      </Router>
+    );
+  }
 }
-
 export default App;

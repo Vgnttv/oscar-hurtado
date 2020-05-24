@@ -1,0 +1,28 @@
+.Container {
+  padding: 10px;
+}
+.Title {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.Topic {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.University {
+  color: black;
+  font-size: 16px;
+}
+.Location {
+  color: gray;
+  font-size: 15px;
+}
+.Date {
+  color: gray;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
