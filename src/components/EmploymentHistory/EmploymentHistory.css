@@ -1,0 +1,28 @@
+.employmentWrapper {
+  padding: 10px;
+}
+.employmentMainTitle {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.employmentTitle {
+  padding-top: 15px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.employmentLocation {
+  color: gray;
+  font-size: 15px;
+}
+.employmentDate {
+  color: gray;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.employmentDescription {
+  color: black;
+  font-size: 15px;
+}
