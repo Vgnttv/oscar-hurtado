@@ -1,5 +1,5 @@
 import React from "react";
-import "./EmploymentHistory.css";
+import "./WorkExperience.css";
 
 export default () => {
   return (

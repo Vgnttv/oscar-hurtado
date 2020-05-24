@@ -1,0 +1,13 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.headerTitle {
+  flex: 1;
+  padding: 20px;
+}
+.headerTitle:hover {
+  background-color: yellow;
+}
