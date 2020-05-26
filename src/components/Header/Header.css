@@ -1,12 +1,16 @@
 .headerWrapper {
   display: flex;
   justify-content: space-around;
-  padding: 40px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
 }
 
 .headerTitle {
   flex: 1;
-  padding: 20px;
+  padding: 20px 0px 20px 80px;
 }
 .headerTitle:hover {
   background-color: yellow;

@@ -1,28 +1,39 @@
-.employmentWrapper {
+.jobWrapper {
   padding: 10px;
 }
-.employmentMainTitle {
+.sectionTitle {
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
-.employmentTitle {
+.jobTitle {
   padding-top: 15px;
   color: black;
   font-size: 18px;
   font-weight: bold;
 }
-.employmentLocation {
+.jobDate {
   color: gray;
   font-size: 15px;
 }
-.employmentDate {
+.jobLocation {
   color: gray;
   font-size: 15px;
   padding-bottom: 10px;
 }
-.employmentDescription {
+.task {
   color: black;
   font-size: 15px;
+  display: flex;
+  padding-bottom: 5px;
+}
+.task::before {
+  background-color: black;
+  border-radius: 1em;
+  content: " ";
+  display: inline-block;
+  height: 0.35em;
+  margin: 7px 7px 0;
+  width: 0.35em;
 }

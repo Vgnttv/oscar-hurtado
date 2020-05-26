@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import React, { Component } from "react";
-import LandingPage from "./components/LandingPage/LandingPage";
+import { Header, LandingPage } from "./components";
 import "./App.css";
 
 class App extends Component {
@@ -8,7 +8,13 @@ class App extends Component {
     return (
       <Router>
         <div>
+          <Header />
           <main className="main">
+            <img
+              src="oscar-hurtado.jpg"
+              alt="Oscar Hurtado"
+              className="image"
+            />
             <Route exact path="/" component={LandingPage} />
             {/* <Route exact path="/jokes" component={LandingPage} />
             <Route exact path="/randomjokes" component={RandomLandingPage} /> */}
